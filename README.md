@@ -1,4 +1,4 @@
 # Docker Light
 
-Ce référentiel contient toutes les astuces et notions sur docker.
+Ce référentiel contient toutes les astuces et exemples sur docker.
 Platforme : centos et ubuntu
