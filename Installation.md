@@ -26,6 +26,7 @@ sudo systemctl enable docker
 ```
 
 **Ajouter un utilisateur au groupe docker**
+
 Pour accorder à un utilisateur l'autorisation d'exécuter des commandes Docker, ajoutez l'utilisateur au groupe Docker. L'utilisateur aura accès à Docker après sa prochaine connexion.
 
 ```
@@ -33,6 +34,7 @@ sudo usermod -a -G docker <user>
 ```
 
 **Tester l'installation de docker**
+
 Nous pouvons tester notre installation Docker en exécutant un simple conteneur.
 
 ```
@@ -71,6 +73,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 ```
 
 **Ajouter un utilisateur au groupe docker**
+
 Pour accorder à un utilisateur l'autorisation d'exécuter des commandes Docker, ajoutez l'utilisateur au groupe Docker. L'utilisateur aura accès à Docker après sa prochaine connexion.
 
 ```
@@ -78,6 +81,7 @@ sudo usermod -a -G docker <user>
 ```
 
 **Tester l'installation de docker**
+
 Nous pouvons tester notre installation Docker en exécutant un simple conteneur.
 
 ```
@@ -99,6 +103,7 @@ sudo sh get-docker.sh
 ```
 
 **Ajouter un utilisateur au groupe docker**
+
 Pour accorder à un utilisateur l'autorisation d'exécuter des commandes Docker, ajoutez l'utilisateur au groupe Docker. L'utilisateur aura accès à Docker après sa prochaine connexion.
 
 ```
