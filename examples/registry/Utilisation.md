@@ -1,7 +1,8 @@
-# Utilisation d'un simple registre privé docker avec l'image registry:2
+# Utilisation d'un simple registre privé docker
 
 NB: - On supposera que la configuration d'un registre est déjà faite sur un serveur de domaine **example.com**. (voir configuration)
-    - On supposera qu docker est déjà installé depuis un hôte (ubuntu ou centos) qui nous permettra d'utiliser notre registre. 
+
+    - On supposera que docker est déjà installé depuis un hôte (ubuntu ou centos) qui nous permettra d'utiliser notre registre. 
 
 ## Installation du certification du registre privé sur l'hôte
 **Création du répertoire du certification du registre**
@@ -10,13 +11,13 @@ NB: - On supposera que la configuration d'un registre est déjà faite sur un se
 sudo mkdir -p /etc/docker/certs.d/example.com:443
 ```
 
-**Copie du certification dans le répertoire example.com:443**
+**Copie du certificat dans le répertoire example.com:443**
 
 ```
 sudo scp cloud_user@example.com:<HOME>/registry/certs/example.com.crt /etc/docker/certs.d/example.com:443
 ```
 
-NB: Remplacez le **<HOME>** par celui de votre serveur de registre.
+NB: Remplacez le **\<HOME\>** par celui de votre serveur de registre.
 
 ## Authentification au registre privé depuis l'hôte
 
@@ -24,7 +25,7 @@ NB: Remplacez le **<HOME>** par celui de votre serveur de registre.
 docker login example.com:443
 ```
 
-NB: Vous mettrez le login et le password précédemment configuré.
+NB: Vous mettrez le login et le password précédemment configuré sur le serveur de registre.
 
 ## Pousser vers et extraire de votre registre privé
 
