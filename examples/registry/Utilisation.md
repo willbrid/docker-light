@@ -1,8 +1,8 @@
 # Utilisation d'un simple registre privé docker
 
-NB:
-    1.    On supposera que la configuration d'un registre est déjà faite sur un serveur de domaine **example.com**. (voir configuration)
-    2.    On supposera que docker est déjà installé depuis un hôte (ubuntu ou centos) qui nous permettra d'utiliser notre registre. 
+Hypothèses
+1.    On supposera que la configuration d'un registre est déjà faite sur un serveur de domaine **example.com**. (voir configuration)
+2.    On supposera que docker est déjà installé depuis un hôte (ubuntu ou centos) qui nous permettra d'utiliser notre registre. 
 
 ## Installation du certification du registre privé sur l'hôte
 **Création du répertoire du certification du registre**
