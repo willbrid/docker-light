@@ -11,7 +11,7 @@ sudo dnf -y remove podman runc
 sudo dnf install -y yum-utils
 ```
 
-Ce qui nous permettre d'utiliser la commande *yum-config-manager*.
+Ce qui nous permettra d'utiliser la commande *yum-config-manager*.
 
 **- Installation du repo docker**
 ```
