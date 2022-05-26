@@ -6,7 +6,7 @@ Pour lancer un container :
 docker run IMAGE[:TAG] [COMMAND] [ARGS]
 ```
 
-- IMAGE : permet d'exécuter un conteneur à l'aide d'une image appelée *hello-world* . Dans cet exemple, le tag n'est pas spécifié, le tag *latest* sera donc automatiquement utilisé.
+- IMAGE : permet d'exécuter un conteneur à l'aide d'une image. Dans cet exemple, l'image est appelée *hello-world*, le tag n'est pas spécifié, le tag *latest* sera donc automatiquement utilisé.
 ```
 docker run hello-world
 ```
