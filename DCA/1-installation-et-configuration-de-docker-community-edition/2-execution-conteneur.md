@@ -6,12 +6,12 @@ Pour lancer un container :
 docker run IMAGE[:TAG] [COMMAND] [ARGS]
 ```
 
-- IMAGE : exécutons un conteneur à l'aide d'une image appelée *hello-world* . Dans cet exemple, le tag n'est pas spécifié, le tag *latest* sera donc automatiquement utilisé.
+- IMAGE : permet d'exécuter un conteneur à l'aide d'une image appelée *hello-world* . Dans cet exemple, le tag n'est pas spécifié, le tag *latest* sera donc automatiquement utilisé.
 ```
 docker run hello-world
 ```
 
-- COMMANDE et ARGS : exécutons une commande à l'intérieur du conteneur. Cette commande exécute un conteneur à l'aide de l'image *busybox*. A l'intérieur du conteneur, il exécute en plus la commande *echo* avec les arguments *hello world!* .
+- COMMANDE et ARGS : permet d'exécuter une commande à l'intérieur du conteneur. Cette commande exécute un conteneur à l'aide de l'image *busybox*. A l'intérieur du conteneur, il exécute en plus la commande *echo* avec les arguments *hello world!* .
 ```
 docker run busybox echo hello world!
 ```
