@@ -2,7 +2,7 @@
 Docker Registry : un emplacement central pour stocker et distribuer des images.<br>
 Docker Hub : le registre public par défaut géré par Docker.<br>
 Nous pouvons exploiter gratuitement notre propre registre privé en utilisant l'image du registre. <br>
-Exécutons un registre simple une variable d'environnement :
+Exécutons un registre simple avec une variable d'environnement :
 ```
 docker run -d -p 5000:5000 --restart=always --name registry -e REGISTRY_LOG_LEVEL=debug registry:2
 ```
